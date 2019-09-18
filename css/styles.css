@@ -1,0 +1,208 @@
+@charset "utf-8";
+/*
+  JIB Karimi
+  12/06/2018
+
+*/
+
+html {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    height: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    text-align: inherit;
+    padding-top: 20em;
+    display: block;
+    padding: 7em 10em 1em 10em;
+    border-bottom: 1px solid black;
+}
+
+.caption{
+   
+    font-size: 150%;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.logo img {
+    height: 60px;
+    float: left;
+    border-radius: 45%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.70);
+
+}
+
+.page {
+    height: 100vh;
+   
+}
+
+nav ul li {
+    display: inline;
+    font-weight: 600;
+    border: solid 1px;
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+    width: 100%;
+    float: left;
+}
+
+li:hover {
+    background-color: rgba(151, 151, 100, 0.5);
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 75%;
+    float: left;
+}
+
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+section.pic img {
+
+    margin-left: 1em;
+    margin-right: auto;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 5em;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2), 0 20px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pic {
+    width: 50%;
+    float: left;
+}
+
+aside {
+    width: 50%;
+    float: left;
+    padding-top: 6em;
+
+}
+
+table,
+th,
+td {
+    margin-top: -40em;
+    margin-bottom: 15em;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+
+footer {
+  margin-top: 2em;
+    text-align: center;
+    background-color: aqua;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+
+@media only screen and (max-width: 480px) {
+
+    nav.vertical ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        height: 250px
+    }
+
+    body{
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+    }
+
+    nav ul li {
+        margin-
+    }
+
+    article {
+        over
+    }
+
+    form textarea {
+        column-count: "10";
+        grid-row-end: "2";
+    }
+
+    img {
+        display: none;
+    }
+
+    table{
+        
+        margin-top: 50;
+    }
+
+}
+
+
+
+/*
+=============================================
+   Tablet and Desktop Styles: greater than 640px
+=============================================
+*/
+
+@media only screen and (min-width: 641px) {
+
+    body header nav ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    body header nav ul li {
+        -webkit-flex: 0 1 auto;
+        flex: 0 1 auto;
+    }
+}

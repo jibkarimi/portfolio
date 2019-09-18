@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+   
+      Author: JIB Karimi
+      Date:   12/06/18
+
+   -->
+
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+    <div class="page">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" alt="Portfolio" /></a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Experience.html">Experience</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="video.html">Video</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <br><br><br>
+
+            <form action="mailto:jibkarimi@mycwi.cc" method="post" enctype="text/plain">
+                <br><label for="name">Name:</label><br>
+                <input type="text" name="compName" placeholder="First and last name" size="30" id="company"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="text" name="contactName" placeholder="Example@gmail.com" size="30" id="contact"><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="text" name="contactName" placeholder="(xxx) xxx-xxxx" size="30" id="phone"><br><br>
+
+
+                <legend>Preferred contact type!</legend>
+                <input type="radio" name="contact" value="mail" checked>E-mail<br>
+                <input type="radio" name="contact" value="Phone">Phone<br><br>
+
+
+                <label for=”info”>Contact Reason?</label>
+                <select>
+                    <optgroup label="Programming">
+                        <option label="C SHARP"> Internet</option>
+                    </optgroup>
+
+                    <optgroup label="Web">
+                        <option value="Web">Web design</option>
+                        <option value="Web">Web development</option>
+                    </optgroup>
+
+                    <option value="Others">Other</option>
+                </select><br>
+
+                <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+                <label for="mailCB">E-mail me some of your works!</label><br><br>
+
+                <label for="comment">Enter your comments:</label><br>
+                <textarea cols="100" rows="10" name="comment"></textarea><br>
+
+                <input type="submit" id="submit" value="Submit" class="btn"><br>
+            </form><br>
+        </main>
+    </div>
+</body>
+<footer>
+    <a href="https://www.facebook.com/" target="_blank"> <img src="images/fb.png" /></a>
+
+    <a href="https://github.com/" target="_blank"> <img src="images/github.png" /></a>
+
+    <a href="https://www.linkedin.com/" target="_blank"> <img src="images/linkedin.png" /></a>
+    <br>
+    JIB Karimi<br>
+    <a href="mailto:jibkarimi@mycwi.cc">jibkarimi@mycwi.cc</a>
+</footer>
+
+</html>
